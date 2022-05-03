@@ -4,8 +4,8 @@ import axios from 'axios'
 const WeatherDetails = ({weather, setWeather, location, setLocation, bgStatus, setBGStatus}) => {
 
     const api = {
-        key: "bcb75075a3fdc70892367912b3b5e100",
-        baseURL: "https://api.openweathermap.org/data/2.5/weather?"
+        key: process.env.REACT_APP_API_KEY,
+        baseURL: process.env.REACT_APP_API_URL
     }
 
     const setLocationString = (event) => {

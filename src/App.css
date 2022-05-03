@@ -69,6 +69,11 @@
   border: none;
   padding: 10px;
   border-radius: 5px;
+  color: #ffffff;
+}
+
+.search-btn:hover {
+  background-color: rgb(233, 95, 45);
 }
 
 .list-details {
